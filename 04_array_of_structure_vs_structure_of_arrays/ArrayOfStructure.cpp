@@ -50,7 +50,7 @@ int main (int argc, char* argv[])
 
     auto time_taken = std::chrono::duration<double, std::nano>(end-start).count();
 
-    std::cout << "total_x_sum = " << total_x_sum << " total_z_sum = " << "\n"
+    std::cout << "total_x_sum = " << total_x_sum << " total_z_sum = " << total_z_sum << "\n"
         << "Total time to process ArrayOfStructure = " << time_taken << "\n";
     return 0;
 }
